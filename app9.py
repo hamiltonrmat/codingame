@@ -241,7 +241,7 @@ def interface_etudiant():
 # 4. ZONE PROFESSEUR (Adaptée pour Supabase)
 # ==============================================================================
 def interface_prof():
-    st.header("🍎 Zone Professeur")
+    st.header("Admin")
 
     if 'logged_in' not in st.session_state:
         st.session_state['logged_in'] = False
