@@ -7,7 +7,7 @@ import ast
 import pprint
 
 # --- Configuration de la page ---
-st.set_page_config(page_title="Plateforme Python", layout="wide")
+st.set_page_config(page_title="pyAPEX", layout="wide")
 
 # --- CONNEXION SUPABASE ---
 # On utilise st.cache_resource pour ne se connecter qu'une seule fois
@@ -214,7 +214,6 @@ def afficher_exercice(exercice):
 # 3. ZONE ÉTUDIANT
 # ==============================================================================
 def interface_etudiant():
-    st.header("🎓 Zone Étudiant")
     init_session_state()
     
     # CHARGEMENT DEPUIS SUPABASE
