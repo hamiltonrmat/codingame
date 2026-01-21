@@ -383,7 +383,7 @@ def interface_prof():
 # ==============================================================================
 def main():
     st.sidebar.title("Navigation")
-    app_mode = st.sidebar.radio("Aller vers :", ["🎓 Espace Étudiant", "Espace Professeur"])
+    app_mode = st.sidebar.radio("Aller vers :", ["🎓 Espace Étudiant", "Admin"])
     st.sidebar.markdown("---")
     
     if app_mode == "🎓 Espace Étudiant":
