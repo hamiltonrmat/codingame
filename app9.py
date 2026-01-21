@@ -204,7 +204,6 @@ def afficher_exercice(exercice):
             st.metric("Score", f"{score}/{total}")
             if score == total:
                 st.success("Bravo ! Exercice validé.")
-                st.balloons()
             elif res['failures']:
                 with st.expander("Voir les erreurs"):
                     st.write(res['failures'])
